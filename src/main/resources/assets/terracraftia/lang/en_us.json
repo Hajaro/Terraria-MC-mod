@@ -1,3 +1,10 @@
 {
-  "item.terracraftia.ruby": "Ruby"
+  "itemGroup.TerracraftiaTab" : "Terracraftia",
+
+
+  "item.terracraftia.ruby": "Ruby",
+
+  "block.terracraftia.ruby_block": "Ruby Block"
+
+
 }
