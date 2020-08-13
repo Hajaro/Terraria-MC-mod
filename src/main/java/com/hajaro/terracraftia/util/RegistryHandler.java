@@ -3,6 +3,7 @@ package com.hajaro.terracraftia.util;
 import com.hajaro.terracraftia.Terracraftia;
 import com.hajaro.terracraftia.blocks.BlockItemBase;
 import com.hajaro.terracraftia.blocks.RubyBlock;
+import com.hajaro.terracraftia.blocks.RubyOre;
 import com.hajaro.terracraftia.items.ItemBase;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -28,9 +29,11 @@ public class RegistryHandler {
 
     //Blocks
     public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
+    public static final RegistryObject<Block> RUBY_ORE = BLOCKS.register("ruby_ore", RubyOre::new);
 
 
     //Block Items
     public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block", () -> new BlockItemBase(RUBY_BLOCK.get()));
+    public static final RegistryObject<Item> RUBY_ORE_ITEM = ITEMS.register("ruby_ore", () -> new BlockItemBase(RUBY_ORE.get()));
 
 }
