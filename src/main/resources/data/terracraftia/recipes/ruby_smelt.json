@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "terracraftia:ruby_ore"
+  },
+  "result": "terracraftia:ruby",
+  "experience": 1.0,
+  "cookingtime": 200
+}
