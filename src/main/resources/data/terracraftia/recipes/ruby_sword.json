@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " x ",
+    " x ",
+    " z "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "terracraftia:ruby"
+    },
+    "z":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "terracraftia:ruby_sword",
+    "count": 1
+  }
+}

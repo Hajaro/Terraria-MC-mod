@@ -5,7 +5,9 @@
   "item.terracraftia.ruby": "Ruby",
 
   "block.terracraftia.ruby_block": "Ruby Block",
-  "block.terracraftia.ruby_ore": "Ruby Ore"
+  "block.terracraftia.ruby_ore": "Ruby Ore",
+
+  "item.terracraftia.ruby_sword": "Ruby Sword"
 
 
 }

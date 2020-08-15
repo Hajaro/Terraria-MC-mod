@@ -5,8 +5,10 @@ import com.hajaro.terracraftia.blocks.BlockItemBase;
 import com.hajaro.terracraftia.blocks.RubyBlock;
 import com.hajaro.terracraftia.blocks.RubyOre;
 import com.hajaro.terracraftia.items.ItemBase;
+import com.hajaro.terracraftia.tools.TerracraftiaItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -27,6 +29,10 @@ public class RegistryHandler {
     //Items
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
 
+    //Items
+    public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword", ()->
+            new SwordItem(TerracraftiaItemTier.RUBY, 2, -2.4F, new Item.Properties().group(Terracraftia.TAB)));
+
     //Blocks
     public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
     public static final RegistryObject<Block> RUBY_ORE = BLOCKS.register("ruby_ore", RubyOre::new);
@@ -35,5 +41,6 @@ public class RegistryHandler {
     //Block Items
     public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block", () -> new BlockItemBase(RUBY_BLOCK.get()));
     public static final RegistryObject<Item> RUBY_ORE_ITEM = ITEMS.register("ruby_ore", () -> new BlockItemBase(RUBY_ORE.get()));
+
 
 }
