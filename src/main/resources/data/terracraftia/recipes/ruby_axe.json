@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx ",
+    "xz ",
+    " z "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "terracraftia:ruby"
+    },
+    "z":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "terracraftia:ruby_axe",
+    "count": 1
+  }
+}

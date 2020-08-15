@@ -7,7 +7,12 @@
   "block.terracraftia.ruby_block": "Ruby Block",
   "block.terracraftia.ruby_ore": "Ruby Ore",
 
-  "item.terracraftia.ruby_sword": "Ruby Sword"
+  "item.terracraftia.ruby_sword": "Ruby Sword",
+  "item.terracraftia.ruby_pickaxe": "Ruby Pickaxe",
+  "item.terracraftia.ruby_shovel": "Ruby Shovel",
+  "item.terracraftia.ruby_axe": "Ruby Axe",
+  "item.terracraftia.ruby_hoe": "Ruby Hoe"
+
 
 
 }

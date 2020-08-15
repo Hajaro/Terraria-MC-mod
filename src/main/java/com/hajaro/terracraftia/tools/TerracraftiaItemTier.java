@@ -12,7 +12,81 @@ public enum TerracraftiaItemTier implements IItemTier {
 
     RUBY(3, 800, 7.0f, 3.0f, 12, () -> {
         return Ingredient.fromItems(RegistryHandler.RUBY_SWORD.get());
+    }),
+
+    COPPER(3, 800, 7.0f, 3.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.COPPER_SWORD.get());
+    }),
+
+    TIN(3, 800, 7.0f, 3.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.TIN_SWORD.get());
+    }),
+
+    LEAD(3, 800, 7.0f, 3.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.LEAD_SWORD.get());
+    }),
+
+    SILVER(3, 800, 7.0f, 3.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.SILVER_SWORD.get());
+    }),
+
+    TUNGSTEN(3, 800, 7.0f, 3.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.TUNGSTEN_SWORD.get());
+    }),
+
+    PLATINIUM(3, 800, 7.0f, 3.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.PLATINIUM_SWORD.get());
+    }),
+
+    METEORITE(3, 800, 7.0f, 3.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.METEORITE_SWORD.get());
+    }),
+
+    DEMONITE(3, 800, 7.0f, 3.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.DEMONITE_SWORD.get());
+    }),
+
+    CRIMTANE(3, 800, 7.0f, 3.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.CRIMTANE_SWORD.get());
+    }),
+
+    HELLSTONE(3, 800, 7.0f, 3.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.HELLSTONE_SWORD.get());
+    }),
+
+    COBALT(3, 800, 7.0f, 3.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.COBALT_SWORD.get());
+    }),
+
+    PALLADIUM(3, 800, 7.0f, 3.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.PALLADIUM_SWORD.get());
+    }),
+
+    MYTHRIL(3, 800, 7.0f, 3.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.MYTHRIL_SWORD.get());
+    }),
+
+    ORICHALCUM(3, 800, 7.0f, 3.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.ORICHALCUM_SWORD.get());
+    }),
+
+    ADAMANTITE(3, 800, 7.0f, 3.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.ADAMANTITE_SWORD.get());
+    }),
+
+    TITANIUM(3, 800, 7.0f, 3.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.TITANIUM_SWORD.get());
+    }),
+
+    CHLOROPHYTE(3, 800, 7.0f, 3.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.CHLOROPHYTE_SWORD.get());
+    }),
+
+    LUMINITE(3, 800, 7.0f, 3.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.LUMINITE_SWORD.get());
     });
+
+
 
     private final int harvestLevel;
     private final int maxUses;
